@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+ <html lang="en">
+<head>
+    <link rel="canonical" href="https://https://demo.themesberg.com/landwind/" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landwind - Tailwind CSS Landing Page Demo</title>
+
+    <!-- Meta SEO -->
+    <meta name="title" content="Landwind - Tailwind CSS Landing Page">
+    <meta name="description" content="Get started with a free and open-source landing page built with Tailwind CSS and the Flowbite component library.">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
+    <meta name="author" content="Themesberg">
+
+    <!-- Social media share -->
+    <meta property="og:title" content="Landwind - Tailwind CSS Landing Page">
+    <meta property="og:site_name" content="Themesberg">
+    <meta property="og:url" content="https://https://demo.themesberg.com/landwind/">
+    <meta property="og:description" content="Get started with a free and open-source landing page for Tailwind CSS built with the Flowbite component library featuring dark mode, hero sections, pricing cards, and more.">
+    <meta property="og:type" content="">
+    <meta property="og:image" content="https://themesberg.s3.us-east-2.amazonaws.com/public/github/landwind/og-image.png">
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@themesberg" />
+    <meta name="twitter:creator" content="@themesberg" />
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link href="./output.css" rel="stylesheet">
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+</head>
+<body>
+    <header class="fixed w-full">
+        <nav class="bg-white border-gray-200 py-2.5 dark:bg-gray-900">
+            <div class="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
+                <a href="#" class="flex items-center">
+                    <img src="./images/IndustryPartnersLogo.png" class="h-6 mr-3 sm:h-9" alt="IPP Logo">
+                    <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Industry Partners Program</span>
+                </a>
+                
+                <div class="items-center justify-between w-full lg:flex lg:w-auto lg:order-1 hidden" id="mobile-menu-2">
+                    <ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
+                        <li>
+                            <a href="#" class="block py-2 pl-3 pr-4 text-white bg-purple-700 rounded lg:bg-transparent lg:text-purple-700 lg:p-0 dark:text-white" aria-current="page">Home</a>
+                        </li>
+                        <li>
+                            <a href="#about-us" class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#mission" class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Our Mission</a>
+                        </li>
+                        <li>
+                            <a href="#events" class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Events</a>
+                        </li>
+                        <li>
+                            <a href="#staff" class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Team</a>
+                        </li>
+                        <li>
+                            <a href="#for-students" class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Students</a>
+                        </li>
+                        <li>
+                            <a href="#for-companies" class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Companies</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Start block: MAIN -->
+    <section class="bg-white dark:bg-gray-900">
+        <div class="grid max-w-screen-xl px-4 pt-20 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-28">
+            <div class="mr-auto place-self-center lg:col-span-7">
+                <h1 class="max-w-2xl mb-4 text-4xl font-extrabold leading-none tracking-tight md:text-5xl xl:text-6xl dark:text-white">Brown CS<br>Industry Partners Program</h1>
+                
+                
+            </div>
+            <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
+                <img src="./images/IndustryPartnersLogo.png" alt="bridge image">
+            </div>                
+        </div>
+    </section>
+    <!-- End block -->
+    <!-- Start block: ABOUT US -->
+    
+    
+    
+    <section class="bg-blue-700 dark:bg-gray-800">
+        <a id="about-us"></a>
+        <div class="max-w-screen-xl px-4 py-8 mx-auto space-y-12 lg:space-y-20 lg:py-24 lg:px-6">
+            <!-- Row -->
+            <div class="">
+                <div class="text-gray-500 sm:text-lg dark:text-gray-400">
+                    <h2 class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">About Us</h2>
+                    <br>
+                    <p class="mb-8 font-light lg:text-xl">We bridge the Brown University computer science community with corporations and non-profit organizations. We empower members of our community to share their diverse talents and explore their interdisciplinary interests with our industry partners.</p>
+                    <!-- List -->
+                    
+                    
+                </div>
+                
+            </div>
+            <!-- Row -->
+            
+        </div>
+    </section>
+
+    <!-- End block -->
+    <!-- Start block: OUR MISSION -->
+      <section class="bg-white dark:bg-gray-800">
+        <a id="mission"></a>
+        <div class="max-w-screen-xl px-4 py-8 mx-auto space-y-12 lg:space-y-20 lg:py-24 lg:px-6">
+            <!-- Row -->
+            <div class="">
+                <div class="text-gray-500 sm:text-lg dark:text-gray-400">
+                    <h2 class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">Our Mission</h2>
+                    <br>
+                    <p class="mb-8 font-light lg:text-xl">Make career information as accessible as possible to all students – including those who are historically underrepresented in computer science, passionate about social good, and have interdisciplinary interests.</p>
+                    <br>
+                    <p class="mb-8 font-light lg:text-xl">Connect students to meaningful and fulfilling opportunities with members of the Industry Partners Program.</p>
+                    <!-- List -->
+                    
+                    
+                </div>
+                
+            </div>
+            <!-- Row -->
+            
+        </div>
+      </section>
+    <!-- End block -->
+    <!-- Start block -->
+
+    <!-- End block -->
+    <!-- Start block: EVENTS -->
+    <section class="bg-blue-700 dark:bg-gray-800">
+        <a id="events"></a>
+        <div class="max-w-screen-xl px-4 py-8 mx-auto space-y-12 lg:space-y-20 lg:py-24 lg:px-6">
+            <!-- Row -->
+            <div class="">
+                <div class="text-gray-500 sm:text-lg dark:text-gray-400">
+                    <h2 class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">Events in the Upcoming Weeks</h2>
+                    <br>
+                    <p class="mb-8 font-bold lg:text-xl">November 9, 2022</p>
+                    <p class="mb-8 font-light lg:text-xl">CS Careers Peer Advising Panel</p>
+                    <br>
+                    <p class="mb-8 font-bold lg:text-xl">November 14, 2022</p>
+                    <p class="mb-8 font-light lg:text-xl">Ascend Analytics Info Session</p>
+                    <!-- List -->
+                    
+                    
+                </div>
+                
+            </div>
+            <!-- Row --> 
+            
+        </div>
+      </section>
+    <!-- End block -->
+    <!-- Start block -->
+
+    <!-- End block -->
+    <!-- Start block: STAFF -->
+    <section class="bg-white dark:bg-gray-800">
+        <a id="staff"></a>
+        <div class="max-w-screen-xl px-4 py-8 mx-auto space-y-12 lg:space-y-20 lg:py-24 lg:px-6">
+            <!-- Row -->
+            <div class="text-gray-500 sm:text-lg dark:text-gray-400">
+                <h2 class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">Student Ambassadors</h2>
+            </div>
+            <div class="flex justify-around">
+                 
+            <div class="relative my-4">
+                  <img class="my-7 object-scale-down h-5 w-5 rounded-full border border-gray-100 shadow-sm" src="./images/Charlotte_More Professional.JPG" alt="charlotte image">
+                  <p class="mt-7 font-bold lg:text-xl">Charlotte Chan Lee</p>
+                  <p class="font-light lg:text-xl">IPP Student Lead</p>
+                </div>
+            <div class="my-4">
+                  <img class="my-7 object-scale-down h-5 w-5 rounded-full border border-gray-100 shadow-sm" src="./images/Kendra.JPG" alt="kendra image">
+                  <p class="mt-7 font-bold lg:text-xl">Kendra Lee</p>
+                  <p class="font-light lg:text-xl">Design Team</p>
+                </div>
+            <div class="my-4">
+                <img class="my-7 object-scale-down h-5 w-5 rounded-full border border-gray-100 shadow-sm" src="./images/Steph_picture.JPG" alt="kendra image">
+                <p class="mt-7 font-bold lg:text-xl">Stephanie DaCruz</p>
+                <p class="font-light lg:text-xl">Design Team</p>
+              </div>
+            </div>
+        </div>
+        <!-- Row --> 
+            
+        
+      </section>
+    <!-- End block -->
+    <!-- Start block -->
+    
+    <!-- End block -->
+    <!-- Start block: FOR STUDENTS -->
+    <section class="bg-blue-700 dark:bg-gray-800">
+        <a id="for-students"></a>
+        <div class="max-w-screen-xl px-4 py-8 mx-auto space-y-12 lg:space-y-20 lg:py-24 lg:px-6">
+            <!-- Row -->
+            <div class="">
+                <div class="text-gray-500 sm:text-lg dark:text-gray-400">
+                    <h2 class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">For Students</h2>
+                    <br>
+                    <p class="mb-8 font-light lg:text-xl">We have many initiatives in the works:</p>
+                    <br>
+                    <ul class="list-inside list-disc">
+                        <li class="mb-8 font-light lg:text-xl">Increased peer mentoring and advising: technical interview preparation, internship/job search, post-graduate career planning</li>
+                        <br>
+                        <li class="mb-8 font-light lg:text-xl">Expansion of the industry partner program by connecting with more companies that are aligned with our values</li>
+                        <br>
+                        <li class="mb-8 font-light lg:text-xl">Launch of a new website for career resources and company profiles to guide your internship and job search</li>
+                        <br>
+                        <li class="mb-8 font-light lg:text-xl">Connecting students directly with companies that are interested in hiring Brown talent for summer internships and full time jobs through regular information sessions</li>
+                    </ul>
+                    <br>
+                    <p class="mb-8 font-light lg:text-xl">Stay updated on our events and initiatives by joining our IPP mailing list.</p>
+                    <p class="mb-8 font-light lg:text-xl">Subscribe to the IPP Student Events Calendar</p>
+                    <p class="mb-8 font-light lg:text-xl">Contact kendra_lee@brown.edu with specific questions on how to get more involved</p>
+                    <!-- List -->
+                    
+                    
+                </div>
+                
+            </div>
+            <!-- Row --> 
+            
+        </div>
+      </section>
+    <!-- End block -->
+    <!-- Start block -->
+
+        <!-- End block -->
+    <!-- Start block: FOR COMPANIES -->
+    <section class="bg-white dark:bg-gray-800">
+        <a id="for-companies"></a>
+        <div class="max-w-screen-xl px-4 py-8 mx-auto space-y-12 lg:space-y-20 lg:py-24 lg:px-6">
+            <!-- Row -->
+            <div class="">
+                <div class="text-gray-500 sm:text-lg dark:text-gray-400">
+                    <h2 class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">For Companies</h2>
+                    <br>
+                    <p class="mb-8 font-light lg:text-xl">We are looking to partner with companies who share our values and can provide meaningful opportunities for our students</p
+                    <p class="mb-8 font-light lg:text-xl">Interested in becoming a member of the Industry Partners Program? Contact hiu_yau_lee@brown.edu</p>
+                    <!-- List -->
+                    
+
+                </div>
+                
+            </div>
+            <!-- Row --> 
+            
+        </div>
+      </section>
+    <!-- End block -->
+    <!-- Start block -->
+
+
+
+
+
+
+</body>
+</html>
